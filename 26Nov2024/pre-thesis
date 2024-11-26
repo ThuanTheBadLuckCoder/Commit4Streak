@@ -1,5 +1,27 @@
 Continue with the BUILDING LARGE LANGUAGE MODELS Documentation:
 
 - Learn HOW GPT-3 ACTUALLY WORKS?
+    + Introduction
+    + Transformers, GPT, GPT-2, GPT-3 and GPT-4
+    + Zero Shot vs Few Shot learning
+    + Datasets for GPT pre-training
+    + Next word prediction
+    + Emergent behaviour
+Source: https://www.youtube.com/watch?v=xbaYCf2FHSY
+
 - STAGES OF BUILDING A LLM FROM SCRATCH
+    + Stage 1: LLM Basics
+    + Stage 2: Pretraining LLM
+    + Stage 3: Finetuning LLM
+Source: https://www.youtube.com/watch?v=z9fgKz1Drlc
+
 - CODING AN LLM TOKENIZER FROM SCRATCH IN PYTHON
+    + Goals
+    + 2 steps of tokenisation
+    + Importing the dataset
+    + Tokenising the text 
+    + Converting tokens into token IDs
+    + Simple Tokenizer class in Python
+    + Special Context Tokens
+    + Additional context tokens
+Source: https://www.youtube.com/watch?v=rsy5Ragmso8&t
