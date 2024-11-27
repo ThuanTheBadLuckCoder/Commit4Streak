@@ -1,0 +1,60 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage[utf8]{inputenc}            % UTF-8 encoding
+\usepackage{graphicx}                  % Support for images
+\usepackage{fancyhdr}                  % Header and footer customization
+\usepackage{geometry}                  % Page margins
+\geometry{margin=1in}                  % Set 1 inch margins
+\usepackage{titlesec}                  % Section formatting
+\usepackage{hyperref}                  % Hyperlinks in PDF
+\usepackage{setspace}                  % Line spacing
+\usepackage{multicol}                  % Support for multiple columns
+\setstretch{1.5}                       % 1.5x line spacing
+
+% Title page information
+\title{
+    \includegraphics[width=0.8\textwidth]{logo-vector-IU-01.png}\\[1cm]
+    \textbf{Pre-thesis Report}\\
+    \large{The Applications of Large Language Models in Developing an Integrated Virtual Assistant System to Enhance Programmer Support}
+}
+\author{Doan Tran Thuan\\Student ID: ITITIU20316}
+\date{\today}
+
+% Header and footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\raisebox{-0.5\height}{\includegraphics[width=1cm]{Khoa-Cong-nghe-Thong-tin.png}} \textbf{Faculty of Information Technology}}
+\fancyhead[R]{\textbf{Doan Tran Thuan (ITITIU20316)}}
+\fancyfoot[C]{\thepage}
+
+% Two-column style for the document
+\setlength{\columnsep}{0.5cm} % Set the column separation space
+
+\begin{document}
+
+% Title page
+\maketitle
+% \thispagestyle{empty} % Remove header/footer from the title page
+
+% Acknowledgments
+\chapter*{Acknowledgments}
+
+First and foremost, I would like to extend my heartfelt gratitude to Dr. Ho Long Van, whose unwavering support, encouragement, and guidance have been instrumental throughout the journey of this thesis. His profound knowledge, expertise, and attention to detail have not only helped me in shaping the direction of this research but also in understanding the deeper intricacies of the subject matter. Dr. Van has always been available to provide timely feedback and offer thoughtful advice, no matter how complex the challenges I faced. His patience and willingness to listen, combined with his constructive criticism, have pushed me to improve my work and refine my ideas continually.
+
+Dr. Van’s commitment to his students goes beyond academic support; his mentorship has played a significant role in fostering my growth as a researcher and as an individual. His ability to inspire confidence and resilience in me, especially during difficult moments, has been a driving force in my perseverance. His dedication to excellence, both in research and in teaching, has left a lasting impression on me, one that I will carry forward in my future endeavors.
+
+I am incredibly fortunate to have had the opportunity to work under his supervision, and I sincerely appreciate all the time and effort he has invested in me. His influence has shaped not only the outcome of this thesis but also my approach to problem-solving, critical thinking, and my outlook on continuous learning. For all this and more, I am profoundly grateful.
+
+
+
+% Table of contents
+\tableofcontents
+
+% Chapters
+\chapter{Introduction}
+\begin{multicols}{2}
+Introduce your research topic here.
+\end{multicols}
+
+% Rest of your thesis content...
+
+\end{document}
